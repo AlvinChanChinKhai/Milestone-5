@@ -101,6 +101,7 @@
 
 
 10. Click the 'Hammer' icon to build the project. After that, connect the microcontroller and click 'Play' to start deployment our code into the STM32 board. Leave all settings as default and click'OK' to proceed. Then a message will show up to indicate our project deployment is suceed.
+
 ![image](https://user-images.githubusercontent.com/118992897/221053263-cf23e199-d5e3-4b6e-8ecd-d22776611621.png)
 
 
