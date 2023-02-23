@@ -15,6 +15,7 @@
 [4.0 Online Platform and Software used](#Online-Platform-and-Software-used)
 <br>
 [5.0 Built and train model using Edge Impulse](#Built-and-train)
+[5.0 Deploy Trained Model Into STM32](#Deploy)
 
 <a name="Previous-works"/></a>
 ## 1.0 Previous works
@@ -65,9 +66,30 @@
 6. After finish training we can start test our model by using the testing image that has not been used by the model using training stage. The test result will show at the model testing output.
 ![image](https://user-images.githubusercontent.com/118173890/220210270-da4445fb-c85c-440e-b615-1a0825969565.png)
 
-6. Click on deployment sectiona, then click on Cube.Mx CMSIS-PACK to create the lobrary of the device that we want to deploy into. 
+7. Click on deployment sectiona, then click on Cube.Mx CMSIS-PACK to create the lobrary of the device that we want to deploy into. 
 ![image](https://user-images.githubusercontent.com/118173890/220210607-a5a6d9d1-0c93-4237-b925-8c18db40e59b.png)
 
   Scroll to the bottom and ckick on analyse optimization to optimize the code. After it finish blick build to built the model for deployment in the STM32 later.
 
   ![image](https://user-images.githubusercontent.com/118173890/220210496-87d790eb-1a54-4bbf-b151-e2137614cda0.png)
+
+
+
+
+<a name="Deploy"/></a>
+## 5.0 Deploy Trained Model Into STM32
+
+1. Create a new project in STM32.
+
+2. When creating the project, select C++ as targeted language. Then continue to built the project.
+
+3. Open .ioc file, go to 'Pinout & Configuration' > 'Computing' > 'CRC' > click the acticated checkbox.
+ ![image](https://user-images.githubusercontent.com/118992897/221048750-e861f31e-68db-40bb-b6b2-8162d9187552.png)
+
+5. Next step is to, add the pack downloaded from Edge Impulse to the project. Select 'Help' > 'Manage Embedded Software Packages' > 'From Local...' and search for the pack file in our computer. Accept the license agreement and thepack will be installed.
+ ![image](https://user-images.githubusercontent.com/118992897/221049309-4534d40a-2614-44fa-a873-0d87073d6981.png)
+
+6. Head to the .ioc file. This time goes to 'Pinout & Configuration' > 'Software packs' > 'Select components'. Select your project, expand the pack, and tick the core. Then click 'OK' to close the window.
+  ![image](https://user-images.githubusercontent.com/118992897/221050215-0d604f4d-058c-4539-82fb-73df7961ef6a.png)
+  
+7. 
