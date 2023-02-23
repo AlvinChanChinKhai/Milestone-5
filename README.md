@@ -92,4 +92,9 @@
 6. Head to the .ioc file. This time goes to 'Pinout & Configuration' > 'Software packs' > 'Select components'. Select your project, expand the pack, and tick the core. Then click 'OK' to close the window.
   ![image](https://user-images.githubusercontent.com/118992897/221050215-0d604f4d-058c-4539-82fb-73df7961ef6a.png)
   
-7. 
+7. Go back to 'Pinout & Configuration', under 'Software Packs', click on the project name. Tick your project under 'Mode' section. 
+![image](https://user-images.githubusercontent.com/118992897/221051819-fb30d599-0a7e-4a1d-9c97-100c0e5fd8ef.png)
+
+8. Press CTRL+S to save the workspace. Go to the project exploerer, Rename the "main.c" file under Core/Src to "main.cpp" because C++ language is used for this project.
+
+9. Copy the C++ content and paste it in from here. (https://github.com/AlvinChanChinKhai/Milestone-5/blob/main/main.cpp)
