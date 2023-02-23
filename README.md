@@ -98,3 +98,9 @@
 8. Press CTRL+S to save the workspace. Go to the project exploerer, Rename the "main.c" file under Core/Src to "main.cpp" because C++ language is used for this project.
 
 9. Copy the C++ content and paste it in from here. (https://github.com/AlvinChanChinKhai/Milestone-5/blob/main/main.cpp)
+
+
+10. Click the 'Hammer' icon to build the project. After that, connect the microcontroller and click 'Play' to start deployment our code into the STM32 board. Leave all settings as default and click'OK' to proceed. Then a message will show up to indicate our project deployment is suceed.
+![image](https://user-images.githubusercontent.com/118992897/221053263-cf23e199-d5e3-4b6e-8ecd-d22776611621.png)
+
+
