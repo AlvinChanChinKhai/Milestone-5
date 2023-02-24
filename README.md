@@ -16,6 +16,7 @@
 <br>
 [5.0 Built and train model using Edge Impulse](#Built-and-train)
 [6.0 Deploy Trained Model Into STM32](#Deploy)
+[7.0 Youtube Link](#Youtube)
 
 <a name="Previous-works"/></a>
 ## 1.0 Previous works
@@ -113,3 +114,11 @@
 ![image](https://user-images.githubusercontent.com/118992897/221178024-3834a739-1b33-4ebd-a36f-403e84153a1e.png)
 
 
+
+
+
+
+
+<a name="Youtube"/></a>
+## 7.0 Youtube Link
+Link: https://www.youtube.com/watch?v=XrHYxpFF1N8&t=8s&ab_channel=AlvinChan
