@@ -201,22 +201,22 @@ if(aa==1){
 
 	  	  	    if ((result.classification[0].value > result.classification[1].value) && (result.classification[0].value >result.classification[2].value)){
 	  	  	    	  	          {
-	  	  	    	  	        	  ei_printf("*******\n\r");
-	  	  	    	  	        ei_printf("This is bean\n\r");
-	  	  	    	  	        	  ei_printf("*******\n\r");
+	  	  	    	  	        	 
+	  	  	    	  	        ei_printf("This is bean");
+	  	  	    	  	        	  
 
 	  	  	    	    	  	  	  }
 	  	  	    	  	          else if ((result.classification[1].value > result.classification[0].value) && (result.classification[1].value > result.classification[2].value))
 	  	  	    	  	          {
-	  	  	    	  	        	  ei_printf("*******\n\r");
-	  	  	    	  	        	  ei_printf("This is broccoli\n\r");
-	  	  	    	  	        	  ei_printf("*******\n\r");
+	  	  	    	  	        	
+	  	  	    	  	        	  ei_printf("This is broccoli");
+	  	  	    	  	        	
 	  	  	    	  	          }
 	  	  	    	  	          else if ((result.classification[2].value > result.classification[0].value) && (result.classification[2].value > result.classification[1].value))
 	  	  	    		          {
-	  	  	    	  	        	  ei_printf("*******\n\r");
-	  	  	    	  	        	  ei_printf("This is cabbage\n\r");
-	  	  	    	  	        	  ei_printf("*******\n\r");
+	  	  	    	  	        	
+	  	  	    	  	        	  ei_printf("This is cabbage");
+	  	  	    	  	        	 
 	  	  	    	  	          }
 	  	          //HAL_UART_Transmit(&huart2, txdata, sizeof(txdata), 100);
 	  //	          else if ((result.classification[2].value > result.classification[0].value) && (result.classification[2].value > result.classification[1].value))
