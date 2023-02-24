@@ -109,5 +109,6 @@
 
 12. The classified vegetable should be shown on the output LCD screen. Since we are sending in the bean images, the LCD should print the "This is bean" on the output.
 ![image]
+
 (https://user-images.githubusercontent.com/118992897/221176461-514f6bf8-d74f-489d-bc6c-8ae8b9bb3afa.png)
 
