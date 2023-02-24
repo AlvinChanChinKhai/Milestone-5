@@ -61,10 +61,12 @@
    ![image](https://user-images.githubusercontent.com/118173890/220205084-6b3579e3-73e5-48c2-a131-8e0e58fba992.png)
 
 5. Go to the next section "transfer learning" under the same impulse design section, change the nural network setting to 100 training cycle, 0.0005 learn rate and 60% of variation set size. We need to make sure the trainign cycle is high enough and the learn rate is low to make sure we can get get to the bottom of the loss function and having a much higher accuracy as possible. Then click on start training to start training the model. After finish training, we can observe the accuracy and loss of our model from the training result. 
-  ![image](https://user-images.githubusercontent.com/118173890/220206195-1cf6378b-993a-4543-8107-b977e43bc9c1.png)
+ ![image](https://user-images.githubusercontent.com/118992897/221177529-90d048d3-7c4a-409e-9f0c-60a8a7f9b087.png)
+
 
 6. After finish training we can start test our model by using the testing image that has not been used by the model using training stage. The test result will show at the model testing output.
-![image](https://user-images.githubusercontent.com/118173890/220210270-da4445fb-c85c-440e-b615-1a0825969565.png)
+![image](https://user-images.githubusercontent.com/118992897/221177547-597b4339-312b-40fc-97df-92828f22e18e.png)
+
 
 7. Click on deployment sectiona, then click on Cube.Mx CMSIS-PACK to create the lobrary of the device that we want to deploy into. 
 ![image](https://user-images.githubusercontent.com/118173890/220210607-a5a6d9d1-0c93-4237-b925-8c18db40e59b.png)
