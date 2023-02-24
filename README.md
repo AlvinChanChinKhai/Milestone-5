@@ -15,7 +15,9 @@
 [4.0 Online Platform and Software used](#Online-Platform-and-Software-used)
 <br>
 [5.0 Built and train model using Edge Impulse](#Built-and-train)
+<br>
 [6.0 Deploy Trained Model Into STM32](#Deploy)
+<br>
 [7.0 Youtube Link](#Youtube)
 
 <a name="Previous-works"/></a>
