@@ -16,7 +16,6 @@
 <br>
 [5.0 Built and train model using Edge Impulse](#Built-and-train)
 [5.0 Deploy Trained Model Into STM32](#Deploy)
-[6.0 Display The Result](#Display)
 
 <a name="Previous-works"/></a>
 ## 1.0 Previous works
@@ -100,14 +99,12 @@
 
 9. Copy the C++ content and paste it in from here. (https://github.com/AlvinChanChinKhai/Milestone-5/blob/main/main.cpp)
 
-10. Connect the St7735 TFT LCD Display to the STM32 board. The 
+10. Connect the St7735 TFT LCD Display to the STM32 board. 
 
-10. Click the 'Hammer' icon to build the project. After that, connect the microcontroller and click 'Play' to start deployment our code into the STM32 board. Leave all settings as default and click'OK' to proceed. Then a message will show up to indicate our project deployment is suceed.
+11. Click the 'Hammer' icon to build the project. After that, connect the microcontroller and click 'Play' to start deployment our code into the STM32 board. Leave all settings as default and click'OK' to proceed. Then a message will show up to indicate our project deployment is suceed.
 
 ![image](https://user-images.githubusercontent.com/118992897/221053263-cf23e199-d5e3-4b6e-8ecd-d22776611621.png)
 
-
-<a name="Display"/></a>
-## 6.0 Display The Result
-1. 
+12. The detected vegetable as output should be shown on the LCD screen.
+![image](https://user-images.githubusercontent.com/118992897/221176461-514f6bf8-d74f-489d-bc6c-8ae8b9bb3afa.png)
 
