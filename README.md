@@ -123,5 +123,5 @@
 
 <a name="Youtube"/></a>
 ## 7.0 Youtube Link
-Link: https://www.youtube.com/watch?v=XrHYxpFF1N8&t=8s&ab_channel=AlvinChan
+Link: https://youtu.be/XrHYxpFF1N8
 
