@@ -15,7 +15,7 @@
 [4.0 Online Platform and Software used](#Online-Platform-and-Software-used)
 <br>
 [5.0 Built and train model using Edge Impulse](#Built-and-train)
-[5.0 Deploy Trained Model Into STM32](#Deploy)
+[6.0 Deploy Trained Model Into STM32](#Deploy)
 
 <a name="Previous-works"/></a>
 ## 1.0 Previous works
@@ -44,7 +44,7 @@
 
 
 <a name="Built-and-train"/></a>
-## 4.0 Built and train model using Edge Impulse
+## 5.0 Built and train model using Edge Impulse
 
 1. Download the vegetable image from the Kaggle website for training and testing purposes.
    https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset?resource=download
@@ -79,7 +79,7 @@
 
 
 <a name="Deploy"/></a>
-## 5.0 Deploy Trained Model Into STM32
+## 6.0 Deploy Trained Model Into STM32
 
 1. Create a new project in STM32.
 
